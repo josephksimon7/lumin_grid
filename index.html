@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./luminGrid.css">
+    <title>luminGrid</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:rgba(236, 236, 236, 0.413);">
+      <div class="container w-100">
+        <a class="navbar-brand" href="#"> <img src="./image/logo vanner 0.1.ad159943.png" style="width: 250px;"
+            alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0"
+            style="font-size: medium; font-family: sans-serif; font-weight: bold;">
+            <li class="nav-item">
+              <a class="nav-link active pe-3" style="color: rgb(94, 6, 138);" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-3" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  pe-3" href="#">Placements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  pe-3" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+  
+  
+    <!-- carousel -->
+  
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="text-align: start;">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1800">
+          <img src="./image/one-carousel.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="imageheading" style="font-size: 45px;">
+              Kerala's No.1 IT Finishing School <br>
+              100% Placement Assistance
+            </h1>
+            <p class="pt-5">
+              We at LUMINAR TECHNOLAB offers best software training and Placements in <br>emerging technologies like BIG
+              DATA, Data science, Machine learning, PYTHON, <br>Software testing.
+            </p>
+            <a href="#" button class="btn btn-primary btn-lg active mt-5"
+              style="background-color: rgb(94, 6, 138); border: none; border-radius: 50px; font-size: 16px; font-weight: 600;">
+              VIEW COURSES</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1800">
+          <img src="./image/two-carousel.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="imageheading" style="font-size: 45px;">
+  
+              Data Science, ML & AI <br>
+              Big Data - Hadoop & Spark
+              Python Data Science
+            </h1>
+            <p class="pt-5">
+              We LUMINAR TECHNOLAB offers best software testing and placement in emerging <br> technologies like Big Data,
+              Hadoop, Spark, Data Science, Machine learning , Deep learning and AI.
+            </p>
+            <a href="#" class="btn btn-primary btn-lg active mt-5"
+              style="background-color: rgb(94, 6, 138); border: none; border-radius: 50px; font-size: 16px; font-family: sans-serif; font-weight: 600;">
+              VIEW COURSES</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+  
+  
+    <!-- modal-form -->
+  
+  
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary"
+      style="background-color: rgb(94, 6, 138); border: none; border-radius: 50px; font-size: 16px; font-weight: 600; margin-left: 20px; margin-top: 22px; "
+      data-bs-toggle="modal" data-bs-target="#exampleModal">
+      TRAINING QUOTE
+    </button>
+  
+    <!-- Modal -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog  modal-dialog-centered ">
+        <div class="modal-content ">
+          <div class="modal-header" style="border: none;">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h1 class="modal-title fs-5 mb-5 " style="margin-top: -10px; font-family: sans-serif;">Get Training Quote For
+              Free</h1>
+            <form action="">
+              <input type="text" placeholder="Name" style="border: none;"><br>
+              <hr>
+              <input type="text" placeholder="Email" style="border: none;"><br>
+              <hr>
+              <input type="text" placeholder="Phone Number" style="border: none;"><br>
+              <hr>
+              <select class="form-select" style="border: none" aria-label="Default select example">
+                <option selected>Select Course Interested In</option>
+                <option value="1">Data Science - ML - AI - Big Data with cloud & Tableau</option>
+                <option value="2">Python Django - Angular - Full Stack Web Development Expert</option>
+                <option value="3">Software Testing Specialist</option>
+                <option value="4">MEARN Stack Development Expert - Angular&React</option>
+                <option value="5">Business Analytics - Power BI & Tableau</option>
+                <option value="6">Android Development Expert Training In Kochi - Flutter</option>
+                <option value="7">PYTHON - DATA SCIENCE with ML - AI & TABLEAU</option>
+              </select>
+              <hr>
+              <input type="text" placeholder="City" style="border: none;"><br>
+              <hr>
+              <input type="text" placeholder="Comments"
+                style="border: none; height: 44px; width: 350px; padding-bottom:31px;"><br>
+              <hr>
+              <button class="sub"
+                style="border:none; width: 125px; margin-top: -30px; margin-left: 18px; height: 30px; font-weight: 600; background-color: rgb(94, 6, 138); color:white;">SUBMIT</button>
+  
+            </form>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Grid -->
+
+  <div class=" container w-100 " style="background-color: white;">
+        <div class="row">
+            <div class="col-lg-7" style="margin-top: 100px;">
+                <h1 style="color: rgb(94, 6, 138) ;">Luminar Technolab Pvt Ltd</h1>
+               <h6 style="color: blueviolet;"> CIN: U80220KL2021PTC071578</h6>
+                <P>Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing advanced level software training to Students and by helping them to get placed in IT companies. We are a team of IT professionals who have experience in IT sector for more than 15 plus years. Our fresher’s career foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python Training, Software Testing Training & Selenium Training in Cochin, Kerala are designed in such a way to match with the current industry requirements. Our Vision is to provide 100% placements to students those who enroll with us for our specialized courses.</P> <br>
+                <button type="button" class="btn btn-primary" id="gridbtn"
+                style="  border-radius: 50px; font-size: 16px; font-weight: 600; height: 50px; ">
+                LEARN MORE
+              </button>          
+            </div>
+            <div class="col-lg-5"><img src="./image/grid1.jpg" alt="" class="img-fluid"></div>
+        </div>
+  </div>
+  
+  
+  
+  
+    <div id="containerstyle" style="background-color: whitesmoke;">
+      <h1 style="text-align: center; color: rgb(94, 6, 138); padding-top: 80px;">OUR <span style="color: blueviolet;">COURSES</span></h1>
+      <div class="container" id="kio" style="margin-top: 35px; background-color: white;">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="./image/grid2.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6">
+            <h5 style="color: rgb(94, 6, 138); padding-top: 15px;">DATA SCIENCE - ML - AI - BIG DATA WITH CLOUD & TABLEAU</h5>
+            <p>
+              Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p> <br>
+            
+             <p style="font-weight: 600; margin-top: -10px;">📅 Next Batch : Jan 03rd 2022 (09:30 am - 11:30 am) <br></p>
+            
+             <p style="font-weight: 600;">⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day <br></p>
+            
+             <p style="font-weight: 600;">🧑‍🏫 Course Fees: <a href="" style="color: rgb(94, 6, 138); font-weight: 500; font-size: small;">VIEW MORE</a> </p>
+          
+            
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </body>
+</html>

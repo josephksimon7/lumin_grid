@@ -1,0 +1,41 @@
+
+.nav-item:hover{
+    text-decoration: underline blueviolet 2px ;
+}
+.nav-item a:hover{
+    color: blueviolet;
+}
+
+/* carousel */
+
+/* .carousel-item{
+    height: 450px;
+} */
+.imageheading{
+    margin-top: -44%;
+}
+.carousel-caption{
+    padding: 2px; text-align: justify;
+}
+.carousel-item img{
+    filter: brightness(50%);
+}
+#gridbtn:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 3px rgb(94, 6, 138) solid;  
+}
+
+#gridbtn{
+    background-color: rgb(94, 6, 138);
+    border-color: rgb(94, 6, 138);
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+#kio:hover{
+    transition:0.5s;
+    box-shadow: 0 4px 8px 0 rgb(234, 234, 234), 0 6px 20px 0 rgba(106, 104,104,0.45);
+    transform: scale(1.1);
+}
